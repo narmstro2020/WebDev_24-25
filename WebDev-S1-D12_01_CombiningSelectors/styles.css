@@ -1,0 +1,45 @@
+h1,
+h2,
+h3 {
+    background-color: yellow;
+}
+
+h1,
+h2,
+h3,
+p{
+    text-align: center;
+}
+
+p em{
+    color: #b5a5a5;
+    background-color: red;
+}
+
+
+h1 {
+    color: red;
+    font-size: 3.5em;
+    font-family: Georgia, sans-serif;
+}
+
+h2 {
+    color: blue;
+    font-size: 1.7em;
+    text-transform: uppercase;
+
+}
+
+p {
+    color: green;
+    font-size: 1.2em; /* 1 em = 16 px */
+    line-height: 160%;
+
+}
+
+li {
+    color: orange;
+    font-style: italic;
+    font-weight: bolder;
+
+}

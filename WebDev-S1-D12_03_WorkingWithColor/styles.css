@@ -1,0 +1,28 @@
+div {
+    height: 100px;
+    width: 100px;
+}
+
+#color1{
+    background-color: hsl(0, 100%, 50%);
+}
+
+#color2{
+    background-color: hsla(0, 100%, 34%, 0.75);
+
+}
+
+#color3{
+    background-color: #FF33FF7C;
+
+}
+
+#color4{
+    background-color: rgba(241, 135, 75, 255);
+
+}
+
+#color5{
+    background-color: black;
+
+}
