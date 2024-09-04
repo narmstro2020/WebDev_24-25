@@ -1,0 +1,47 @@
+/*
+Cascade is all about.
+
+Resolve conflicting declarations
+
+5. Declarations marked with !important
+
+4. Inline style (style attribute in HTML)
+
+3. ID (#) selector   -> last selector in code applies (maybe some little complications)
+
+2. Class (.) or pseudo-class (:) selector -> last selector in code applies (little complications)
+
+1. Element selector (HTML tag, i.e. p, div, h1, li, etc.) -> last selector applies (little complications)
+
+0. Universal selector (*)
+
+ */
+
+*{
+    background-color: darkviolet;
+}
+
+p{
+    background-color : red !important;
+    color: blue;
+}
+
+p{
+    background-color : green;
+}
+
+.later{
+    color:purple;
+}
+
+.again{
+    color: yellow;
+}
+
+#First{
+    color:white;
+}
+
+#second{
+    color:white;
+}
